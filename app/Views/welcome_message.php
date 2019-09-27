@@ -72,21 +72,21 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li>
+<!--                    <a href="#">-->
+<!--                        <i class="fa fa-facebook-square"></i>-->
+<!--                        Share-->
+<!--                    </a>-->
+                </li>
+                <li>
                     <a href="#">
-                        <i class="fa fa-facebook-square"></i>
-                        Share
+                        <i class="fa fa-register"></i>
+                        Sign Up
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-twitter"></i>
-                        Tweet
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa fa-envelope-o"></i>
-                        Email
+                        <i class="fa fa-user"></i>
+                        Login
                     </a>
                 </li>
             </ul>
@@ -121,7 +121,7 @@
                                <div class="col-sm-3"><input type="text" name="term" class="autocomplete form form-control" id="from" placeholder="From" /></div>
                                <div class="col-sm-3"><input type="text" name="term" class="autocomplete form form-control" id="destination" placeholder="Destination" /></div>
                                <div class="col-sm-3"><input type="date" class="form form-control" id="date"></input></div>
-                               <div class="col-sm-3"> <button type="submit" class="btn btn-danger btn-fill" onclick="searchFlight()">Search</button></div>
+                               <div class="col-sm-3"> <button style="width:100%;" type="submit" class="btn btn-danger btn-fill" onclick="searchFlight()">Search</button></div>
 
 
                            </div><br/>
