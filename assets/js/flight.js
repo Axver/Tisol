@@ -3,9 +3,27 @@ function searchFlight() {
     let destination=$("#destination").val();
     let date=$("#date").val();
 
-    console.log(from);
-    console.log(destination);
-    console.log(date);
+
+
+    if(from==destination)
+    {
+        alert("From and Destination can't be same");
+    }
+    else
+    {
+        from=from.split('-');
+        destination=destination.split('-');
+        // from=from[0].substring(0, from[0].length - 1);
+        from=from[0];
+        from=from.substring(0, from.length - 1);
+        destination=destination[0];
+        destination=destination.substring(0, destination.length - 1);
+        console.log(from);
+        console.log(destination);
+        console.log(date);
+        window.location="flight/"+from+"/"+destination+"/"+date;
+
+    }
 }
 
 $(function() {

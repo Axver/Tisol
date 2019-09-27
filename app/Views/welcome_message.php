@@ -118,15 +118,18 @@
                     <div class="col-md-12 ">
                         <div class="form-inline">
                            <div class="row">
-                               <div class="col-sm-3"><input type="text" name="term" class="autocomplete form form-control" id="from" placeholder="From" /></div>
-                               <div class="col-sm-3"><input type="text" name="term" class="autocomplete form form-control" id="destination" placeholder="Destination" /></div>
-                               <div class="col-sm-3"><input type="date" class="form form-control" id="date"></input></div>
-                               <div class="col-sm-3"> <button style="width:100%;" type="submit" class="btn btn-danger btn-fill" onclick="searchFlight()">Search</button></div>
-
+                               <div class="col-sm-2"></div>
+                               <div class="col-sm-2"><input type="text" name="term" class="autocomplete form form-control" id="from" placeholder="From" /></div>
+                               <div class="col-sm-2"><input type="text" name="term" class="autocomplete form form-control" id="destination" placeholder="Destination" /></div>
+                               <div class="col-sm-2"><input type="date" class="form form-control" id="date"></input></div>
+                               <div class="col-sm-2"> <button style="width:100%;" type="submit" class="btn btn-danger btn-fill" onclick="searchFlight()">Search</button></div>
+                               <div class="col-sm-2"></div>
 
                            </div><br/>
                             <div class="row">
-
+                                <div class="col-sm-5"></div>
+                                <div class="col-sm-2"><button style="width:100%;" type="submit" class="btn btn-success btn-fill" onclick="searchFlight()">More  <i class="fa fa-arrow-right"></i></button></div>
+                                <div class="col-sm-5"></div>
 
                             </div>
 
