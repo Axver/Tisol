@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="<?php echo base_url('bikin/css/overwrite.css') ?>">
     <link href="<?php echo base_url('bikin/css/animate.min.css') ?>" rel="stylesheet">
     <link href="<?php echo base_url('bikin/css/style.css') ?>" rel="stylesheet" />
+    <script src="<?php echo base_url('assets/js/air-port-codes-api-min.js') ?>"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<!--    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>-->
+
     <!-- =======================================================
       Theme Name: Bikin
       Theme URL: https://bootstrapmade.com/bikin-free-simple-landing-page-template/
@@ -34,7 +38,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Ticket App</a>
+                <a class="navbar-brand" href="<?php echo base_url('public'); ?>">Ticket App</a>
             </div>
             <div class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
@@ -61,10 +65,10 @@
                 <div class="row">
                     <div class="col-sm-3"></div>
                     <div class="col-sm-2">
-                        <input type="text" class="form form-control">
+                        <input type="text" class="form form-control autocomplete">
                     </div>
                     <div class="col-sm-2">
-                        <input type="text" class="form form-control">
+                        <input type="text" class="form form-control autocomplete">
                     </div>
                     <div class="col-sm-2">
                         <input type="date" class="form form-control">
@@ -170,6 +174,10 @@
 </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="<?php echo base_url('bikin/js/jquery-2.1.1.min.js') ?>"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" type="text/javascript"></script>
+<!--        <script src="air-port-codes-api-min.js"></script>-->
+
+<script src="<?php echo base_url('assets/js/flight.js') ?>"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="<?php echo base_url('bikin/js/bootstrap.min.js') ?>"></script>
 <script src="<?php echo base_url('bikin/js/parallax.min.js') ?>"></script>

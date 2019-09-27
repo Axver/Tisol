@@ -76,6 +76,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 //$routes->add('flight/(:any)/(:any)/(:any)', 'Flight::index');
 $routes->add('flight/(:any)/(:any)/(:any)', 'Flight::index/$1/$2/$3');
+$routes->add('flight', 'Flight::home');
 /**
  * --------------------------------------------------------------------
  * Additional Routing

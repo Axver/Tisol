@@ -128,7 +128,7 @@
                            </div><br/>
                             <div class="row">
                                 <div class="col-sm-5"></div>
-                                <div class="col-sm-2"><button style="width:100%;" type="submit" class="btn btn-success btn-fill" onclick="searchFlight()">More  <i class="fa fa-arrow-right"></i></button></div>
+                                <div class="col-sm-2"><button style="width:100%;" type="submit" class="btn btn-success btn-fill" onclick="showDashboard()">More  <i class="fa fa-arrow-right"></i></button></div>
                                 <div class="col-sm-5"></div>
 
                             </div>

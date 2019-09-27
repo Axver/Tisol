@@ -1,3 +1,7 @@
+function showDashboard()
+{
+    window.location="flight";
+}
 function searchFlight() {
     let from=$("#from").val();
     let destination=$("#destination").val();
@@ -95,3 +99,4 @@ $(function() {
         };
     });
 });
+
